@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/Frame.svg);
+    color: white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+.logo {
+  font-family: "JetBrains Mono", serif;
+  color: #000000;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+  .header {
+    display: flex;
+    justify-content: center;
+    gap: 1350px;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+  }
+
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+.header h1{
+    font-family: "JetBrains Mono", serif;
+}
+
+  .header-buttons a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 0.8em;
+    font-family: "JetBrains Mono", serif;
+    transition: 0.5s;
+  }
+  .header-buttons a:hover {
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .header-buttons a:nth-child(3) {
+    background-color: darkred;
+    color: white;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 300px;
+ }
+ .course-info {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.course-info-text{
+  font-size: 20px;
+}
+.course-info p {
+  font-family: "JetBrains Mono", serif;
+
+}
+
+  .request-form {
+    border: 1px solid white;
+    padding: 10px;
+    width: 450px;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .request-form input {
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    font-family: "JetBrains Mono", serif;
+    font-size: 16px;
+  }
+
+  .request-form button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: 400px;
+    font-family: "JetBrains Mono", serif;
+    transition: 0.4s;
+    outline: none;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+  }
+  .request-form button:hover{
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .request-form p{
+    font-family: "JetBrains Mono", serif;
+  }
+  .submit-button {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .command-line {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .command-line p{
+    font-family: "JetBrains Mono", serif;
+    margin-top: -20px;
+  }
+  .tags {
+    margin-top: 20px;
+  }
+
+  .tags a {
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-family: "JetBrains Mono", serif;;
+  }
+  .tags a:hover {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+  }
+  .command-line {
+    margin-bottom: 20px;
+    white-space: pre-wrap; 
+}
+
+.html-basics {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.course-card {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  border: 3px solid white;
+}
+
+.card-header {
+  padding: 7px;
+  text-align: left;
+  background-color: #000000;
+  border: 1px solid #fff;
+  color: white;
+  font-family: "JetBrains Mono", serif;;
+
+}
+
+.card-header span {
+  font-size: 0.8;
+  color: #ffffff;
+  display: block; 
+  font-family: "JetBrains Mono", serif;;
+}
+.card-header .course-title{
+  font-size: 1.2;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card-image {
+  padding-top: 20px;
+  width: 400px; 
+  padding-left: 80px;  
+  height: 200px;
+  margin-left: 20px;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: left;
+  font-family: "JetBrains Mono", serif;;
+
+}
+
+.card-content p {
+  font-size: 0.9em;
+  line-height: 1.4;
+  font-family: "JetBrains Mono", serif;;
+  color: #ffffff;
+}
+
+.card-footer {
+  padding: 15px;
+  text-align: left;
+  border-top: 3px solid white;
+  font-family: "JetBrains Mono", serif;;
+  display: flex;
+  gap: 250px;
+  align-items: center;
+}
+.card-footer-but{
+  display: flex;
+  justify-content: right;
+}
+.installment p{
+  font-family: "JetBrains Mono", serif;
+}
+.fot-but{
+  width: 200px;
+  height: 40px;
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.fot-but:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid black;
+}
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.image-container img{
+  width: 538px;
+  height: 403px;
+}
+.citata {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 180px
+}
+.quote{
+  font-size: 30px;
+  font-family: "JetBrains Mono", serif;
+  margin-top: 100px;
+  
+}
+.javascript-basics {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.image-container2 img{
+  width: 538px;
+  height: 403px;
+  padding-left: 100px;
+}
+.citata2 {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 180px
+}
+.form-text p{
+  font-family: "JetBrains Mono", serif;
+  font-size: 45px;
+}
+footer {
+  padding-top: 200px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.footer-column {
+  flex: 1; 
+  min-width: 200px; 
+  margin-bottom: 20px; 
+  margin-left: 30px;
+}
+
+.footer-column h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-right: 5px;
+  font-size: 1.2em; 
+}
+
+.legal-info, .bank-partners {
+  font-size: 0.7em;
+  line-height: 1.3;
+}
+
+.legal-info p, .bank-partners p{
+  margin-bottom: 5px;
+}
+
+.newsletter {
+  text-align: left;
+}
+
+.newsletter label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.newsletter input[type="email"] {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 3px;
+}
+
+.newsletter button {
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.7em;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  margin-top: 20px;
+}
